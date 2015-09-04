@@ -1,0 +1,51 @@
+body { background-image : url('gray.png') !important; font-family : "Karla", "Helvetica", sans-serif; }
+#Main { background-color : #FFF; width : 800px; margin: 40px auto 40px; padding : 45px 45px 20px 45px; height : auto; box-shadow : 0px 0px 10px #000; }
+#N2 { font-size : 40px; font-weight : bold; letter-spacing : -3px; border-bottom : 1px solid #000; line-height : 85%; }
+#Contact { font-size : 13px; font-weight : bold; float : right; text-align : right; margin-top : 3px; }
+a { text-decoration:none; color:#000; }
+a:hover { text-decoration : underline; }
+.Section { font-size : 25px; font-weight : bold; margin-top : 10px; }
+.Org { font-size : 20px; font-weight : bold; margin-top : 20px; }
+.Activity, .Content { font-weight : normal; }
+.Activity { font-size : 18px; }
+.Content { font-size : 14px; margin-top : 20px; text-align : justify; margin-bottom : 30px; }
+
+#PageSelector { 
+    position : fixed;
+    top : 14px;
+    right : 14px;
+}
+
+.StyleSelector { 
+    display : inline-block;
+    width : 11px;
+    height : 11px;
+    border: 2px solid #FFF;
+    border-radius : 50%;
+    margin : 0 4px 0 4px;
+	transition : box-shadow 0.05s ease;
+}
+
+.StyleSelector:hover { 
+    background : #FFF;
+    box-shadow : 0 0 9px #000;
+}
+
+#RevealButton {
+    position : fixed;
+    top : 5px;
+    left : 5px;
+    font:  bold Helvetica; 
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 1px 3px #666666;
+    background: #a3a3a3;
+    border-radius: 28px;
+    color: #ffffff;
+    border : 0px;
+    text-shadow: 0px 0px 5px #000000;
+}
+
+#RevealButton:hover { background : #BBB; }
+#RevealButton:focus { outline : none; }
+
+@media print { .NoPrint { display : none !important; } }
